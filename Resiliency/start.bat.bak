@@ -1,0 +1,5 @@
+start powershell -NoExit -Command "cd 'C:\Projects\Courses\Modern Architecture\Resiliency\Resiliency.Api\bin\Debug\netcoreapp2.1'; dotnet .\Resiliency.Api.dll;"
+start powershell -NoExit -Command "cd 'C:\Projects\Courses\Modern Architecture\Resiliency\Resiliency.Dependency\bin\Debug\netcoreapp2.1'; dotnet .\Resiliency.Dependency.dll;"
+start powershell -NoExit -Command "cd 'C:\Projects\Courses\Modern Architecture\Resiliency\Resiliency.Dependency.Fallback\bin\Debug\netcoreapp2.1'; dotnet .\Resiliency.Dependency.Fallback.dll;"
+#start powershell -NoExit -Command "cd 'C:\Projects\Courses\Modern Architecture\Resiliency\Resiliency.Cache\bin\Debug\netcoreapp2.1'; dotnet .\Resiliency.Cache.dll;"
+start powershell -NoExit -Command "cd 'C:\Projects\Courses\Modern Architecture\Resiliency\Resiliency.Client\bin\Debug\netcoreapp2.1'; dotnet .\Resiliency.Client.dll;"
